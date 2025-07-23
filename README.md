@@ -86,7 +86,7 @@ Now we need to declare a function to bind to each Input Action. To do this, firs
 
     virtual void SetupInputComponent() override;
 
-Then define it in the `.cpp` file like this:
+Then define it in the `.cpp` file like this: 
 
     void AInv_PlayerController::SetupInputComponent()
     {
